@@ -2,6 +2,9 @@ from typing import Optional
 
 from PIL import Image
 
+
+# it's not my code, so i cant explain how it works
+# briefly it convert img to ascii text
 def image_to_ascii_art(img_path: str):
 
     img = Image.open(img_path).convert("L")
